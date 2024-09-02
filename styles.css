@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-weight: bold;
+    background-color: lightcyan; 
+    line-height: 1.6; 
+    background-image: url(./FOTOS.COLAPINTO/LOGO\ NUEVO\ WILLIAMS\ X\ GULF.png);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15164d;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 20px;
+    transition: color 0.3s ease; 
+}
+
+.navbar a:hover {
+    color: #f0f0f0;
+}
+
+.logo img {
+    height: 60px;
+    width: 130px;
+    border-radius: 13px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #f5f5f5;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
+.Imagen1, .noticia2, .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5 {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.Imagen1:hover, .noticia2:hover, .Imagen:hover, .Imagen2:hover, .Imagen3:hover, .Imagen4:hover, .Imagen5:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Imagen1 h2, .noticia2 h2, .Imagen h2, .Imagen2 h2, .Imagen3 h2, .Imagen4 h2, .Imagen5 h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #15164d;
+}
+
+.Imagen1 img, .noticia2 img, .Imagen img, .Imagen2 img, .Imagen3 img, .Imagen4 img, .Imagen5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+footer {
+    background: linear-gradient(135deg, #15164d, #1e1e5f); 
+    color: #ffffff;
+    text-align: center; 
+    padding: 40px 20px; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenidofooter {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.footerlinks {
+    margin-bottom: 20px;
+}
+
+.footerlinks a {
+    color: #ffffff;
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-size: 1.1em; 
+    transition: color 0.3s ease;
+}
+
+.footerlinks a:hover {
+    color: #f0f0f0; 
+}
+
+.redes {
+    margin-bottom: 20px;
+}
+
+.icono {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.icono img {
+    width: 30px; 
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.icono img:hover {
+    transform: scale(1.1); 
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.formulario {
+    background-color: #f4f4f4; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #15164d; 
+}
+
+.formulario label {
+    display: block;
+    font-size: 1.1em;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+.formulario button {
+    background-color: #15164d;
+    color: #ffffff; 
+    border: none; 
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #1e1e5f;
+}
+
